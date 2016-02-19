@@ -1,0 +1,170 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; font-size: 100%; color: #111;
+  width: 600px;
+  margin:0 auto;
+}
+
+/*
+.header-nav {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  line-height: 48px;
+  padding: 0;
+}
+
+.header-nav li:first-child {
+margin-right: auto;
+}
+
+.header-nav a {
+  font-size: 14px;
+  margin: 10px;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.header-nav a:hover {
+  color: #666;
+}
+*/
+
+header h1 {
+  font-size: 48px;
+  background-color: white;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  line-height: 48px;
+  border: 1px solid #666;
+}
+
+
+nav ul li a {
+  display: block;
+  padding: 5px 50px;
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover {
+  line-height: 48px;
+  color: #666;
+}
+
+
+/*
+#breadcrumb ul {
+  display: flex;
+  list-style-type: none;
+  padding: 30px 0 0 50px;
+  line-height: 20px;
+}
+
+#breadcrumb ul li {
+  font-size: 10px;
+}
+
+#breadcrumb ul li::after{
+  content: "/";
+  padding: 0 10px;
+}
+
+#breadcrumb ul li:last-child::after {
+  content: "";
+}
+
+#breadcrumb ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#breadcrumb ul li a:hover {
+  color: #666;
+}
+*/
+
+div {
+  padding-top: 700px;
+}
+
+form p {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+form p:nth-last-child(2) {
+  margin-bottom: 7px;
+}
+form p:last-child{
+  margin-bottom: 0;
+}
+input[type="text"] {
+  width: 200px;
+}
+input[type="email"] {
+  width: 300px;
+}
+textarea {
+  width: 420px;
+  height: 115px;
+  overflow-y: scrool;
+  }
+
+
+
+h1 {
+  padding: 10px 100px;
+  color: #111;
+  background: #e6e6e6;
+  font-size: 24px;
+  text-align: center;
+}
+
+article {
+  padding: 20px 0;
+}
+
+p {
+  text-align: center;
+}
+
+article.site p a {
+  color: #00bfff;
+}
+
+article.site p a:hover {
+  color: #ff8c00;
+}
+
+p#top a{
+  font-size: 24px;
+  color: #00bfff;
+}
+
+p#top a:hover{
+  font-size: 24px;
+  color: #ff8c00;
+}
+
+footer {
+  padding-top: 250px;
+}
